@@ -408,6 +408,7 @@
 }
 @media (max-width: 576px) {
   .header .burger {
+    z-index: 101;
     display: flex;
   }
   .header .burger_active .burger__line {
