@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 980px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 33px 0;
+}
+.header__nav {
+  border-bottom: 2px solid #828282;
+  padding-bottom: 31px;
+}
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__link {
+  font-family: "Gilroy-Bold", sans-serif;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+  transition: 1s;
+}
+.header__link:hover {
+  transition: 1s;
+  color: #070707;
+}
+
+.home {
+  padding: 36px 0;
+}
+.home__divis {
+  display: flex;
+  justify-content: space-between;
+}
+.home__title {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 400;
+  font-size: 47.3392px;
+  line-height: 59px;
+  color: #070707;
+}
+.home__subtitle {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  padding-top: 70px;
+}
+.home__img {
+  padding: 33px 0;
+}
+
+.about {
+  padding: 120px 0 107px;
+  background: #F6F6F6;
+}
+.about__title {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 18px;
+}
+.about__subtitle, .about .about__span {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+.about__span {
+  margin: 50px 0;
+}
+
+.skills {
+  padding: 91px 0 101px;
+}
+.skills__title {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+}
+.skills__subtitle {
+  margin-top: 70px;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+.skills__icon {
+  padding-top: 83px;
+  display: flex;
+  justify-content: space-between;
+}
+.skills__adobe {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  margin-top: 24px;
+}
+.skills__icon {
+  display: block;
+}
